@@ -1,0 +1,50 @@
+Folder PATH listing for volume New Volume
+Volume serial number is 1486-03F8
+E:.
+³   .env
+³   .env.example
+³   .gitignore
+³   check-env-v2.ts
+³   check-env.ts
+³   index.html
+³   metadata.json
+³   package-lock.json
+³   package.json
+³   project_structure.txt
+³   README.md
+³   server.ts
+³   test-backend.ts
+³   tsconfig.json
+³   vite.config.ts
+³   
+ÃÄÄÄbackend
+³   ÃÄÄÄcontrollers
+³   ³       codeController.ts
+³   ³       
+³   ÃÄÄÄroutes
+³   ³       api.ts
+³   ³       
+³   ÀÄÄÄservices
+³           judge0.ts
+³           
+ÀÄÄÄsrc
+    ³   App.tsx
+    ³   data.json
+    ³   index.css
+    ³   main.tsx
+    ³   types.ts
+    ³   
+    ÃÄÄÄcomponents
+    ³       AIResponsePanel.tsx
+    ³       Navbar.tsx
+    ³       Sidebar.tsx
+    ³       
+    ÃÄÄÄpages
+    ³       HomePage.tsx
+    ³       LessonPage.tsx
+    ³       RoadmapPage.tsx
+    ³       
+    ÀÄÄÄservices
+            api.ts
+            gemini.ts
+            

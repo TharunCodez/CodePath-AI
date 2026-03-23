@@ -1,0 +1,1172 @@
+{
+  "roles": [
+    {
+      "id": "python",
+      "name": "Python Developer",
+      "description": "Master the world's most popular language for AI, Data Science, and Web Dev.",
+      "color": "#3776AB",
+      "language_id": 71,
+      "skills": [
+        {
+          "id": "py-basics",
+          "title": "Basics",
+          "chapters": [
+            {
+              "id": "py-basics-ch",
+              "title": "Basics",
+              "lessons": [
+                {
+                  "id": "py-vars",
+                  "title": "Variables",
+                  "explanation": "Variables are used to store data. You can assign values using '='.",
+                  "keyPoints": [
+                    "No need to declare type",
+                    "Use meaningful names",
+                    "Values can be changed"
+                  ],
+                  "examples": [
+                    {
+                      "title": "Example",
+                      "code": "x = 10\ny = 20\nprint(x + y)",
+                      "explanation": "x and y store values. print() outputs their sum."
+                    }
+                  ],
+                  "practice": {
+                    "problem": "Create variables a=5 and b=7. Print their sum.",
+                    "expected_output": "12\n",
+                    "starter_code": "# Write your code here\n"
+                  }
+                },
+                {
+                  "id": "py-types",
+                  "title": "Data Types",
+                  "explanation": "Python supports multiple data types like int, float, string, and boolean.",
+                  "keyPoints": [
+                    "int → whole numbers",
+                    "float → decimal numbers",
+                    "str → text",
+                    "bool → True/False"
+                  ],
+                  "examples": [
+                    {
+                      "title": "Example",
+                      "code": "x = 10\ny = 3.5\nname = 'John'\nprint(type(x), type(name))",
+                      "explanation": "type() shows the data type of variables."
+                    }
+                  ],
+                  "practice": {
+                    "problem": "Create a variable name='Alex' and print its type.",
+                    "expected_output": "<class 'str'>\n",
+                    "starter_code": "# Write your code here\n"
+                  }
+                },
+                {
+                  "id": "py-ops",
+                  "title": "Operators",
+                  "explanation": "Operators perform operations like addition, subtraction, multiplication.",
+                  "keyPoints": [
+                    "+ addition",
+                    "- subtraction",
+                    "* multiplication",
+                    "/ division"
+                  ],
+                  "examples": [
+                    {
+                      "title": "Example",
+                      "code": "a = 10\nb = 3\nprint(a + b, a * b)",
+                      "explanation": "Performs arithmetic operations."
+                    }
+                  ],
+                  "practice": {
+                    "problem": "Multiply 6 and 7 and print the result.",
+                    "expected_output": "42\n",
+                    "starter_code": "# Write your code here\n"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "py-flow",
+          "title": "Control Flow",
+          "chapters": [
+            {
+              "id": "py-flow-ch",
+              "title": "Control Flow",
+              "lessons": [
+                {
+                  "id": "py-if",
+                  "title": "If-Else",
+                  "explanation": "Used to make decisions in code.",
+                  "keyPoints": [
+                    "if condition",
+                    "else for fallback",
+                    "indentation is important"
+                  ],
+                  "examples": [
+                    {
+                      "title": "Example",
+                      "code": "x = 10\nif x > 5:\n    print('Greater')\nelse:\n    print('Smaller')",
+                      "explanation": "Checks condition and executes accordingly."
+                    }
+                  ],
+                  "practice": {
+                    "problem": "Check if a number is even or odd.",
+                    "expected_output": "Even\n",
+                    "starter_code": "num = 10\n# Your code here\n"
+                  }
+                },
+                {
+                  "id": "py-loops",
+                  "title": "Loops",
+                  "explanation": "Loops repeat a block of code.",
+                  "keyPoints": [
+                    "for loop",
+                    "while loop",
+                    "break and continue"
+                  ],
+                  "examples": [
+                    {
+                      "title": "Example",
+                      "code": "for i in range(3):\n    print(i)",
+                      "explanation": "Loops through numbers from 0 to 2."
+                    }
+                  ],
+                  "practice": {
+                    "problem": "Print numbers from 1 to 5.",
+                    "expected_output": "1\n2\n3\n4\n5\n",
+                    "starter_code": "# Use a loop\n"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "py-funcs",
+          "title": "Functions",
+          "chapters": [
+            {
+              "id": "py-funcs-ch",
+              "title": "Functions",
+              "lessons": [
+                {
+                  "id": "py-func",
+                  "title": "Functions",
+                  "explanation": "Functions are reusable blocks of code.",
+                  "keyPoints": [
+                    "Use def keyword",
+                    "Can take parameters",
+                    "Can return values"
+                  ],
+                  "examples": [
+                    {
+                      "title": "Example",
+                      "code": "def add(a, b):\n    return a + b\n\nprint(add(2,3))",
+                      "explanation": "Function adds two numbers."
+                    }
+                  ],
+                  "practice": {
+                    "problem": "Create a function to square a number.",
+                    "expected_output": "25\n",
+                    "starter_code": "def square(n):\n    # Your code here\n\nprint(square(5))\n"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "py-ds",
+          "title": "Data Structures",
+          "chapters": [
+            {
+              "id": "py-ds-ch",
+              "title": "Data Structures",
+              "lessons": [
+                {
+                  "id": "py-lists",
+                  "title": "Lists",
+                  "explanation": "Lists store multiple values.",
+                  "keyPoints": [
+                    "Ordered",
+                    "Mutable",
+                    "Indexed"
+                  ],
+                  "examples": [
+                    {
+                      "title": "Example",
+                      "code": "nums = [1,2,3]\nprint(nums[0])",
+                      "explanation": "Access elements using index."
+                    }
+                  ],
+                  "practice": {
+                    "problem": "Create list [10,20,30] and print last element.",
+                    "expected_output": "30\n",
+                    "starter_code": "nums = [10, 20, 30]\n# Your code here\n"
+                  }
+                },
+                {
+                  "id": "py-dicts",
+                  "title": "Dictionaries",
+                  "explanation": "Store data in key-value pairs.",
+                  "keyPoints": [
+                    "Key-value structure",
+                    "Access via keys"
+                  ],
+                  "examples": [
+                    {
+                      "title": "Example",
+                      "code": "person = {'name':'John','age':20}\nprint(person['name'])",
+                      "explanation": "Access value using key."
+                    }
+                  ],
+                  "practice": {
+                    "problem": "Create dictionary with name and age and print age.",
+                    "expected_output": "20\n",
+                    "starter_code": "person = {'name': 'Alex', 'age': 20}\n# Your code here\n"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "py-adv",
+          "title": "Advanced",
+          "chapters": [
+            {
+              "id": "py-adv-ch",
+              "title": "Advanced",
+              "lessons": [
+                {
+                  "id": "py-oop",
+                  "title": "OOP",
+                  "explanation": "Object-Oriented Programming uses classes and objects.",
+                  "keyPoints": [
+                    "Class defines structure",
+                    "Object is instance",
+                    "Use __init__ constructor"
+                  ],
+                  "examples": [
+                    {
+                      "title": "Example",
+                      "code": "class Person:\n    def __init__(self, name):\n        self.name = name\n\np = Person('Alex')\nprint(p.name)",
+                      "explanation": "Creates object and accesses property."
+                    }
+                  ],
+                  "practice": {
+                    "problem": "Create class Car with attribute brand.",
+                    "expected_output": "Toyota\n",
+                    "starter_code": "class Car:\n    # Your code here\n\nc = Car('Toyota')\nprint(c.brand)\n"
+                  }
+                },
+                {
+                  "id": "py-files",
+                  "title": "File Handling",
+                  "explanation": "Used to read and write files.",
+                  "keyPoints": [
+                    "open() function",
+                    "read and write modes"
+                  ],
+                  "examples": [
+                    {
+                      "title": "Example",
+                      "code": "f = open('test.txt','w')\nf.write('Hello')\nf.close()",
+                      "explanation": "Writes data to file."
+                    }
+                  ],
+                  "practice": {
+                    "problem": "Write 'Hi' into a file.",
+                    "expected_output": "File created\n",
+                    "starter_code": "# File handling practice\nprint('File created')\n"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "java",
+      "name": "Java Developer",
+      "description": "Build robust, scalable enterprise applications with Java.",
+      "color": "#007396",
+      "language_id": 62,
+      "skills": [
+        {
+          "id": "java-basics",
+          "title": "Basics",
+          "chapters": [
+            {
+              "id": "java-basics-ch",
+              "title": "Basics",
+              "lessons": [
+                {
+                  "id": "java-vars",
+                  "title": "Variables",
+                  "explanation": "Variables are used to store data values. In Java, you must declare the type of the variable.",
+                  "keyPoints": [
+                    "Java is statically typed",
+                    "Variables must have a type",
+                    "Use meaningful variable names"
+                  ],
+                  "examples": [
+                    {
+                      "title": "Example",
+                      "code": "public class Main {\n  public static void main(String[] args) {\n    int x = 10;\n    int y = 20;\n    System.out.println(x + y);\n  }\n}",
+                      "explanation": "int defines integer variables. System.out.println prints output."
+                    }
+                  ],
+                  "practice": {
+                    "problem": "Create two integer variables a=5 and b=7. Print their sum.",
+                    "expected_output": "12\n",
+                    "starter_code": "public class Main {\n  public static void main(String[] args) {\n    // Your code here\n  }\n}"
+                  }
+                },
+                {
+                  "id": "java-types",
+                  "title": "Data Types",
+                  "explanation": "Java supports primitive data types like int, double, char, and boolean.",
+                  "keyPoints": [
+                    "int → whole numbers",
+                    "double → decimal numbers",
+                    "char → single character",
+                    "boolean → true/false"
+                  ],
+                  "examples": [
+                    {
+                      "title": "Example",
+                      "code": "public class Main {\n  public static void main(String[] args) {\n    int x = 10;\n    double y = 5.5;\n    char c = 'A';\n    boolean flag = true;\n    System.out.println(x);\n  }\n}",
+                      "explanation": "Different data types store different kinds of values."
+                    }
+                  ],
+                  "practice": {
+                    "problem": "Create a char variable with value 'Z' and print it.",
+                    "expected_output": "Z\n",
+                    "starter_code": "public class Main {\n  public static void main(String[] args) {\n    // Your code here\n  }\n}"
+                  }
+                },
+                {
+                  "id": "java-ops",
+                  "title": "Operators",
+                  "explanation": "Operators are used to perform operations like addition, subtraction, multiplication.",
+                  "keyPoints": [
+                    "+ addition",
+                    "- subtraction",
+                    "* multiplication",
+                    "/ division",
+                    "% modulus"
+                  ],
+                  "examples": [
+                    {
+                      "title": "Example",
+                      "code": "public class Main {\n  public static void main(String[] args) {\n    int a = 10;\n    int b = 3;\n    System.out.println(a + b);\n    System.out.println(a % b);\n  }\n}",
+                      "explanation": "Performs arithmetic operations including remainder."
+                    }
+                  ],
+                  "practice": {
+                    "problem": "Find remainder when 10 is divided by 4.",
+                    "expected_output": "2\n",
+                    "starter_code": "public class Main {\n  public static void main(String[] args) {\n    // Your code here\n  }\n}"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "java-flow",
+          "title": "Control Flow",
+          "chapters": [
+            {
+              "id": "java-flow-ch",
+              "title": "Control Flow",
+              "lessons": [
+                {
+                  "id": "java-if",
+                  "title": "If-Else",
+                  "explanation": "Used to make decisions based on conditions.",
+                  "keyPoints": [
+                    "if checks condition",
+                    "else handles alternative case",
+                    "Use comparison operators"
+                  ],
+                  "examples": [
+                    {
+                      "title": "Example",
+                      "code": "public class Main {\n  public static void main(String[] args) {\n    int x = 10;\n    if (x > 5) {\n      System.out.println(\"Greater\");\n    } else {\n      System.out.println(\"Smaller\");\n    }\n  }\n}",
+                      "explanation": "Condition is checked and corresponding block is executed."
+                    }
+                  ],
+                  "practice": {
+                    "problem": "Check if a number is positive or negative.",
+                    "expected_output": "Positive\n",
+                    "starter_code": "public class Main {\n  public static void main(String[] args) {\n    int x = 10;\n    // Your code here\n  }\n}"
+                  }
+                },
+                {
+                  "id": "java-loops",
+                  "title": "Loops",
+                  "explanation": "Loops allow repeated execution of code.",
+                  "keyPoints": [
+                    "for loop",
+                    "while loop",
+                    "do-while loop",
+                    "break and continue"
+                  ],
+                  "examples": [
+                    {
+                      "title": "Example",
+                      "code": "public class Main {\n  public static void main(String[] args) {\n    for (int i = 0; i < 3; i++) {\n      System.out.println(i);\n    }\n  }\n}",
+                      "explanation": "for loop runs multiple times based on condition."
+                    }
+                  ],
+                  "practice": {
+                    "problem": "Print numbers from 1 to 5 using loop.",
+                    "expected_output": "1\n2\n3\n4\n5\n",
+                    "starter_code": "public class Main {\n  public static void main(String[] args) {\n    // Your code here\n  }\n}"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "java-funcs",
+          "title": "Functions",
+          "chapters": [
+            {
+              "id": "java-funcs-ch",
+              "title": "Functions",
+              "lessons": [
+                {
+                  "id": "java-methods",
+                  "title": "Methods",
+                  "explanation": "Methods are functions in Java used to perform tasks.",
+                  "keyPoints": [
+                    "Defined using return type",
+                    "Can accept parameters",
+                    "Can return values"
+                  ],
+                  "examples": [
+                    {
+                      "title": "Example",
+                      "code": "public class Main {\n  static int add(int a, int b) {\n    return a + b;\n  }\n\n  public static void main(String[] args) {\n    System.out.println(add(2,3));\n  }\n}",
+                      "explanation": "Method returns sum of two numbers."
+                    }
+                  ],
+                  "practice": {
+                    "problem": "Create method to return square of a number.",
+                    "expected_output": "25\n",
+                    "starter_code": "public class Main {\n  static int square(int n) {\n    // Your code here\n  }\n  public static void main(String[] args) {\n    System.out.println(square(5));\n  }\n}"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "java-ds",
+          "title": "Data Structures",
+          "chapters": [
+            {
+              "id": "java-ds-ch",
+              "title": "Data Structures",
+              "lessons": [
+                {
+                  "id": "java-arrays",
+                  "title": "Arrays",
+                  "explanation": "Arrays store multiple values of same type.",
+                  "keyPoints": [
+                    "Fixed size",
+                    "Indexed",
+                    "Same data type"
+                  ],
+                  "examples": [
+                    {
+                      "title": "Example",
+                      "code": "public class Main {\n  public static void main(String[] args) {\n    int[] nums = {1,2,3};\n    System.out.println(nums[0]);\n  }\n}",
+                      "explanation": "Access elements using index."
+                    }
+                  ],
+                  "practice": {
+                    "problem": "Create array [10,20,30] and print last element.",
+                    "expected_output": "30\n",
+                    "starter_code": "public class Main {\n  public static void main(String[] args) {\n    // Your code here\n  }\n}"
+                  }
+                },
+                {
+                  "id": "java-strings",
+                  "title": "Strings",
+                  "explanation": "Strings represent text in Java.",
+                  "keyPoints": [
+                    "Immutable",
+                    "Use String class",
+                    "Methods like length()"
+                  ],
+                  "examples": [
+                    {
+                      "title": "Example",
+                      "code": "public class Main {\n  public static void main(String[] args) {\n    String name = \"John\";\n    System.out.println(name.length());\n  }\n}",
+                      "explanation": "length() returns number of characters."
+                    }
+                  ],
+                  "practice": {
+                    "problem": "Print length of string 'Hello'.",
+                    "expected_output": "5\n",
+                    "starter_code": "public class Main {\n  public static void main(String[] args) {\n    // Your code here\n  }\n}"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "java-adv",
+          "title": "Advanced",
+          "chapters": [
+            {
+              "id": "java-adv-ch",
+              "title": "Advanced",
+              "lessons": [
+                {
+                  "id": "java-oop",
+                  "title": "OOP",
+                  "explanation": "Object-Oriented Programming organizes code using classes and objects.",
+                  "keyPoints": [
+                    "Classes define structure",
+                    "Objects are instances",
+                    "Encapsulation and inheritance"
+                  ],
+                  "examples": [
+                    {
+                      "title": "Example",
+                      "code": "class Person {\n  String name;\n}\n\npublic class Main {\n  public static void main(String[] args) {\n    Person p = new Person();\n    p.name = \"Alex\";\n    System.out.println(p.name);\n  }\n}",
+                      "explanation": "Creates object and accesses property."
+                    }
+                  ],
+                  "practice": {
+                    "problem": "Create class Car with variable brand.",
+                    "expected_output": "Toyota\n",
+                    "starter_code": "class Car {\n  String brand;\n}\npublic class Main {\n  public static void main(String[] args) {\n    Car c = new Car();\n    c.brand = \"Toyota\";\n    System.out.println(c.brand);\n  }\n}"
+                  }
+                },
+                {
+                  "id": "java-exceptions",
+                  "title": "Exception Handling",
+                  "explanation": "Handles runtime errors using try-catch blocks.",
+                  "keyPoints": [
+                    "try block",
+                    "catch handles error",
+                    "finally optional"
+                  ],
+                  "examples": [
+                    {
+                      "title": "Example",
+                      "code": "public class Main {\n  public static void main(String[] args) {\n    try {\n      int x = 10/0;\n    } catch (Exception e) {\n      System.out.println(\"Error occurred\");\n    }\n  }\n}",
+                      "explanation": "Catches division by zero error."
+                    }
+                  ],
+                  "practice": {
+                    "problem": "Handle division by zero error.",
+                    "expected_output": "Error occurred\n",
+                    "starter_code": "public class Main {\n  public static void main(String[] args) {\n    // Your code here\n  }\n}"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "c",
+      "name": "C Developer",
+      "description": "Understand the foundations of computing with low-level C programming.",
+      "color": "#A8B9CC",
+      "language_id": 50,
+      "skills": [
+        {
+          "id": "c-basics",
+          "title": "Basics",
+          "chapters": [
+            {
+              "id": "c-basics-ch",
+              "title": "Basics",
+              "lessons": [
+                {
+                  "id": "c-vars",
+                  "title": "Variables",
+                  "explanation": "Variables are used to store data. In C, you must declare the type before using them.",
+                  "keyPoints": [
+                    "C is statically typed",
+                    "Variables must be declared before use",
+                    "Use appropriate data types"
+                  ],
+                  "examples": [
+                    {
+                      "title": "Example",
+                      "code": "#include <stdio.h>\nint main() {\n    int a = 5;\n    int b = 7;\n    printf(\"%d\", a + b);\n    return 0;\n}",
+                      "explanation": "int declares integers. printf prints output using format specifier %d."
+                    }
+                  ],
+                  "practice": {
+                    "problem": "Create two integers a=3 and b=4. Print their sum.",
+                    "expected_output": "7\n",
+                    "starter_code": "#include <stdio.h>\n\nint main() {\n    // Your code here\n    return 0;\n}"
+                  }
+                },
+                {
+                  "id": "c-types",
+                  "title": "Data Types",
+                  "explanation": "C provides different data types to store different kinds of values.",
+                  "keyPoints": [
+                    "int → whole numbers",
+                    "float → decimal numbers",
+                    "char → single character",
+                    "double → larger decimal"
+                  ],
+                  "examples": [
+                    {
+                      "title": "Example",
+                      "code": "#include <stdio.h>\nint main() {\n    int x = 10;\n    float y = 5.5;\n    char c = 'A';\n    printf(\"%d %f %c\", x, y, c);\n    return 0;\n}",
+                      "explanation": "Different format specifiers print different data types."
+                    }
+                  ],
+                  "practice": {
+                    "problem": "Declare a char variable with value 'Z' and print it.",
+                    "expected_output": "Z\n",
+                    "starter_code": "#include <stdio.h>\n\nint main() {\n    // Your code here\n    return 0;\n}"
+                  }
+                },
+                {
+                  "id": "c-ops",
+                  "title": "Operators",
+                  "explanation": "Operators perform arithmetic and logical operations.",
+                  "keyPoints": [
+                    "+ addition",
+                    "- subtraction",
+                    "* multiplication",
+                    "/ division",
+                    "% modulus"
+                  ],
+                  "examples": [
+                    {
+                      "title": "Example",
+                      "code": "#include <stdio.h>\nint main() {\n    int a = 10;\n    int b = 3;\n    printf(\"%d %d\", a + b, a % b);\n    return 0;\n}",
+                      "explanation": "Performs addition and modulus operation."
+                    }
+                  ],
+                  "practice": {
+                    "problem": "Find remainder when 15 is divided by 4.",
+                    "expected_output": "3\n",
+                    "starter_code": "#include <stdio.h>\n\nint main() {\n    // Your code here\n    return 0;\n}"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "c-flow",
+          "title": "Control Flow",
+          "chapters": [
+            {
+              "id": "c-flow-ch",
+              "title": "Control Flow",
+              "lessons": [
+                {
+                  "id": "c-if",
+                  "title": "If-Else",
+                  "explanation": "Used to make decisions based on conditions.",
+                  "keyPoints": [
+                    "if checks condition",
+                    "else handles alternative case",
+                    "Use relational operators"
+                  ],
+                  "examples": [
+                    {
+                      "title": "Example",
+                      "code": "#include <stdio.h>\nint main() {\n    int x = 10;\n    if (x > 5) {\n        printf(\"Greater\");\n    } else {\n        printf(\"Smaller\");\n    }\n    return 0;\n}",
+                      "explanation": "Condition determines which block executes."
+                    }
+                  ],
+                  "practice": {
+                    "problem": "Check if a number is positive or negative.",
+                    "expected_output": "Positive\n",
+                    "starter_code": "#include <stdio.h>\n\nint main() {\n    int x = 10;\n    // Your code here\n    return 0;\n}"
+                  }
+                },
+                {
+                  "id": "c-loops",
+                  "title": "Loops",
+                  "explanation": "Loops allow repeated execution of code blocks.",
+                  "keyPoints": [
+                    "for loop",
+                    "while loop",
+                    "do-while loop",
+                    "break and continue"
+                  ],
+                  "examples": [
+                    {
+                      "title": "Example",
+                      "code": "#include <stdio.h>\nint main() {\n    for(int i = 0; i < 3; i++) {\n        printf(\"%d\\n\", i);\n    }\n    return 0;\n}",
+                      "explanation": "Loop runs from 0 to 2 and prints each value."
+                    }
+                  ],
+                  "practice": {
+                    "problem": "Print numbers from 1 to 5 using loop.",
+                    "expected_output": "1\n2\n3\n4\n5\n",
+                    "starter_code": "#include <stdio.h>\n\nint main() {\n    // Your code here\n    return 0;\n}"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "c-funcs",
+          "title": "Functions",
+          "chapters": [
+            {
+              "id": "c-funcs-ch",
+              "title": "Functions",
+              "lessons": [
+                {
+                  "id": "c-func",
+                  "title": "Functions",
+                  "explanation": "Functions are reusable blocks of code.",
+                  "keyPoints": [
+                    "Declared using return type",
+                    "Can take parameters",
+                    "Must be defined before use or declared"
+                  ],
+                  "examples": [
+                    {
+                      "title": "Example",
+                      "code": "#include <stdio.h>\nint add(int a, int b) {\n    return a + b;\n}\n\nint main() {\n    printf(\"%d\", add(2,3));\n    return 0;\n}",
+                      "explanation": "Function takes two parameters and returns sum."
+                    }
+                  ],
+                  "practice": {
+                    "problem": "Create a function to square a number.",
+                    "expected_output": "25\n",
+                    "starter_code": "#include <stdio.h>\n\nint square(int n) {\n    // Your code here\n}\n\nint main() {\n    printf(\"%d\", square(5));\n    return 0;\n}"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "c-ds",
+          "title": "Data Structures",
+          "chapters": [
+            {
+              "id": "c-ds-ch",
+              "title": "Data Structures",
+              "lessons": [
+                {
+                  "id": "c-arrays",
+                  "title": "Arrays",
+                  "explanation": "Arrays store multiple elements of the same type.",
+                  "keyPoints": [
+                    "Fixed size",
+                    "Indexed access",
+                    "Same data type"
+                  ],
+                  "examples": [
+                    {
+                      "title": "Example",
+                      "code": "#include <stdio.h>\nint main() {\n    int arr[3] = {10, 20, 30};\n    printf(\"%d\", arr[2]);\n    return 0;\n}",
+                      "explanation": "Access array elements using index."
+                    }
+                  ],
+                  "practice": {
+                    "problem": "Create array [5,10,15] and print first element.",
+                    "expected_output": "5\n",
+                    "starter_code": "#include <stdio.h>\n\nint main() {\n    // Your code here\n    return 0;\n}"
+                  }
+                },
+                {
+                  "id": "c-strings",
+                  "title": "Strings",
+                  "explanation": "Strings in C are arrays of characters.",
+                  "keyPoints": [
+                    "Character array",
+                    "Ends with null character '\\0'",
+                    "Use printf and scanf"
+                  ],
+                  "examples": [
+                    {
+                      "title": "Example",
+                      "code": "#include <stdio.h>\nint main() {\n    char str[] = \"Hello\";\n    printf(\"%s\", str);\n    return 0;\n}",
+                      "explanation": "String is printed using %s format specifier."
+                    }
+                  ],
+                  "practice": {
+                    "problem": "Print string 'Hi'.",
+                    "expected_output": "Hi\n",
+                    "starter_code": "#include <stdio.h>\n\nint main() {\n    // Your code here\n    return 0;\n}"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "c-adv",
+          "title": "Advanced",
+          "chapters": [
+            {
+              "id": "c-adv-ch",
+              "title": "Advanced",
+              "lessons": [
+                {
+                  "id": "c-pointers",
+                  "title": "Pointers",
+                  "explanation": "Pointers store memory addresses of variables.",
+                  "keyPoints": [
+                    "Use * to declare pointer",
+                    "& gives address",
+                    "* accesses value"
+                  ],
+                  "examples": [
+                    {
+                      "title": "Example",
+                      "code": "#include <stdio.h>\nint main() {\n    int x = 10;\n    int *p = &x;\n    printf(\"%d\", *p);\n    return 0;\n}",
+                      "explanation": "Pointer stores address and accesses value using *."
+                    }
+                  ],
+                  "practice": {
+                    "problem": "Create pointer to integer and print value.",
+                    "expected_output": "10\n",
+                    "starter_code": "#include <stdio.h>\n\nint main() {\n    int x = 10;\n    // Your code here\n    return 0;\n}"
+                  }
+                },
+                {
+                  "id": "c-files",
+                  "title": "File Handling",
+                  "explanation": "Used to read and write files in C.",
+                  "keyPoints": [
+                    "FILE pointer",
+                    "fopen, fclose",
+                    "fprintf, fscanf"
+                  ],
+                  "examples": [
+                    {
+                      "title": "Example",
+                      "code": "#include <stdio.h>\nint main() {\n    FILE *f = fopen(\"test.txt\", \"w\");\n    fprintf(f, \"Hello\");\n    fclose(f);\n    return 0;\n}",
+                      "explanation": "Writes content into a file."
+                    }
+                  ],
+                  "practice": {
+                    "problem": "Write 'Hi' into a file.",
+                    "expected_output": "File written\n",
+                    "starter_code": "#include <stdio.h>\n\nint main() {\n    // File handling practice\n    printf(\"File written\\n\");\n    return 0;\n}"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cpp",
+      "name": "C++ Developer",
+      "description": "Master performance and object-oriented programming with C++.",
+      "color": "#00599C",
+      "language_id": 54,
+      "skills": [
+        {
+          "id": "cpp-basics",
+          "title": "Basics",
+          "chapters": [
+            {
+              "id": "cpp-basics-ch",
+              "title": "Basics",
+              "lessons": [
+                {
+                  "id": "cpp-vars",
+                  "title": "Variables",
+                  "explanation": "Variables store data values. In C++, you must declare the type before using them.",
+                  "keyPoints": [
+                    "C++ is statically typed",
+                    "Variables must be declared",
+                    "Use meaningful names"
+                  ],
+                  "examples": [
+                    {
+                      "title": "Example",
+                      "code": "#include <iostream>\nusing namespace std;\n\nint main() {\n    int a = 5;\n    int b = 7;\n    cout << a + b;\n    return 0;\n}",
+                      "explanation": "int declares integers. cout is used to print output."
+                    }
+                  ],
+                  "practice": {
+                    "problem": "Create two integers a=3 and b=4. Print their sum.",
+                    "expected_output": "7\n",
+                    "starter_code": "#include <iostream>\nusing namespace std;\n\nint main() {\n    // Your code here\n    return 0;\n}"
+                  }
+                },
+                {
+                  "id": "cpp-types",
+                  "title": "Data Types",
+                  "explanation": "C++ provides various data types like int, float, char, and bool.",
+                  "keyPoints": [
+                    "int → whole numbers",
+                    "float → decimal numbers",
+                    "char → single character",
+                    "bool → true/false"
+                  ],
+                  "examples": [
+                    {
+                      "title": "Example",
+                      "code": "#include <iostream>\nusing namespace std;\n\nint main() {\n    int x = 10;\n    float y = 5.5;\n    char c = 'A';\n    cout << x << \" \" << y << \" \" << c;\n    return 0;\n}",
+                      "explanation": "Different data types store different values and are printed using cout."
+                    }
+                  ],
+                  "practice": {
+                    "problem": "Declare a char variable with value 'Z' and print it.",
+                    "expected_output": "Z\n",
+                    "starter_code": "#include <iostream>\nusing namespace std;\n\nint main() {\n    // Your code here\n    return 0;\n}"
+                  }
+                },
+                {
+                  "id": "cpp-ops",
+                  "title": "Operators",
+                  "explanation": "Operators perform arithmetic and logical operations.",
+                  "keyPoints": [
+                    "+ addition",
+                    "- subtraction",
+                    "* multiplication",
+                    "/ division",
+                    "% modulus"
+                  ],
+                  "examples": [
+                    {
+                      "title": "Example",
+                      "code": "#include <iostream>\nusing namespace std;\n\nint main() {\n    int a = 10;\n    int b = 3;\n    cout << a + b << \" \" << a % b;\n    return 0;\n}",
+                      "explanation": "Performs addition and modulus operation."
+                    }
+                  ],
+                  "practice": {
+                    "problem": "Find remainder when 15 is divided by 4.",
+                    "expected_output": "3\n",
+                    "starter_code": "#include <iostream>\nusing namespace std;\n\nint main() {\n    // Your code here\n    return 0;\n}"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "cpp-flow",
+          "title": "Control Flow",
+          "chapters": [
+            {
+              "id": "cpp-flow-ch",
+              "title": "Control Flow",
+              "lessons": [
+                {
+                  "id": "cpp-if",
+                  "title": "If-Else",
+                  "explanation": "Used to make decisions based on conditions.",
+                  "keyPoints": [
+                    "if checks condition",
+                    "else handles alternative case",
+                    "Use comparison operators"
+                  ],
+                  "examples": [
+                    {
+                      "title": "Example",
+                      "code": "#include <iostream>\nusing namespace std;\n\nint main() {\n    int x = 10;\n    if (x > 5) {\n        cout << \"Greater\";\n    } else {\n        cout << \"Smaller\";\n    }\n    return 0;\n}",
+                      "explanation": "Condition determines which block executes."
+                    }
+                  ],
+                  "practice": {
+                    "problem": "Check if a number is positive or negative.",
+                    "expected_output": "Positive\n",
+                    "starter_code": "#include <iostream>\nusing namespace std;\n\nint main() {\n    int x = 10;\n    // Your code here\n    return 0;\n}"
+                  }
+                },
+                {
+                  "id": "cpp-loops",
+                  "title": "Loops",
+                  "explanation": "Loops repeat a block of code.",
+                  "keyPoints": [
+                    "for loop",
+                    "while loop",
+                    "do-while loop",
+                    "break and continue"
+                  ],
+                  "examples": [
+                    {
+                      "title": "Example",
+                      "code": "#include <iostream>\nusing namespace std;\n\nint main() {\n    for(int i = 0; i < 3; i++) {\n        cout << i << endl;\n    }\n    return 0;\n}",
+                      "explanation": "Loop runs from 0 to 2 and prints each value."
+                    }
+                  ],
+                  "practice": {
+                    "problem": "Print numbers from 1 to 5 using loop.",
+                    "expected_output": "1\n2\n3\n4\n5\n",
+                    "starter_code": "#include <iostream>\nusing namespace std;\n\nint main() {\n    // Your code here\n    return 0;\n}"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "cpp-funcs",
+          "title": "Functions",
+          "chapters": [
+            {
+              "id": "cpp-funcs-ch",
+              "title": "Functions",
+              "lessons": [
+                {
+                  "id": "cpp-func",
+                  "title": "Functions",
+                  "explanation": "Functions are reusable blocks of code.",
+                  "keyPoints": [
+                    "Declared with return type",
+                    "Can take parameters",
+                    "Return values using return"
+                  ],
+                  "examples": [
+                    {
+                      "title": "Example",
+                      "code": "#include <iostream>\nusing namespace std;\n\nint add(int a, int b) {\n    return a + b;\n}\n\nint main() {\n    cout << add(2,3);\n    return 0;\n}",
+                      "explanation": "Function returns sum of two numbers."
+                    }
+                  ],
+                  "practice": {
+                    "problem": "Create a function to square a number.",
+                    "expected_output": "25\n",
+                    "starter_code": "#include <iostream>\nusing namespace std;\n\nint square(int n) {\n    // Your code here\n}\n\nint main() {\n    cout << square(5);\n    return 0;\n}"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "cpp-ds",
+          "title": "Data Structures",
+          "chapters": [
+            {
+              "id": "cpp-ds-ch",
+              "title": "Data Structures",
+              "lessons": [
+                {
+                  "id": "cpp-arrays",
+                  "title": "Arrays",
+                  "explanation": "Arrays store multiple values of the same type.",
+                  "keyPoints": [
+                    "Fixed size",
+                    "Indexed",
+                    "Same data type"
+                  ],
+                  "examples": [
+                    {
+                      "title": "Example",
+                      "code": "#include <iostream>\nusing namespace std;\n\nint main() {\n    int arr[3] = {10, 20, 30};\n    cout << arr[2];\n    return 0;\n}",
+                      "explanation": "Access elements using index."
+                    }
+                  ],
+                  "practice": {
+                    "problem": "Create array [5,10,15] and print first element.",
+                    "expected_output": "5\n",
+                    "starter_code": "#include <iostream>\nusing namespace std;\n\nint main() {\n    // Your code here\n    return 0;\n}"
+                  }
+                },
+                {
+                  "id": "cpp-strings",
+                  "title": "Strings",
+                  "explanation": "Strings in C++ are handled using the string class.",
+                  "keyPoints": [
+                    "Use string type",
+                    "Supports operations like length()",
+                    "Part of STL"
+                  ],
+                  "examples": [
+                    {
+                      "title": "Example",
+                      "code": "#include <iostream>\n#include <string>\nusing namespace std;\n\nint main() {\n    string name = \"John\";\n    cout << name.length();\n    return 0;\n}",
+                      "explanation": "length() returns number of characters."
+                    }
+                  ],
+                  "practice": {
+                    "problem": "Print length of string 'Hello'.",
+                    "expected_output": "5\n",
+                    "starter_code": "#include <iostream>\n#include <string>\nusing namespace std;\n\nint main() {\n    // Your code here\n    return 0;\n}"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "cpp-adv",
+          "title": "Advanced",
+          "chapters": [
+            {
+              "id": "cpp-adv-ch",
+              "title": "Advanced",
+              "lessons": [
+                {
+                  "id": "cpp-pointers",
+                  "title": "Pointers",
+                  "explanation": "Pointers store memory addresses of variables.",
+                  "keyPoints": [
+                    "Use * to declare pointer",
+                    "& gets address",
+                    "* accesses value"
+                  ],
+                  "examples": [
+                    {
+                      "title": "Example",
+                      "code": "#include <iostream>\nusing namespace std;\n\nint main() {\n    int x = 10;\n    int *p = &x;\n    cout << *p;\n    return 0;\n}",
+                      "explanation": "Pointer accesses value stored at address."
+                    }
+                  ],
+                  "practice": {
+                    "problem": "Create pointer to integer and print value.",
+                    "expected_output": "10\n",
+                    "starter_code": "#include <iostream>\nusing namespace std;\n\nint main() {\n    int x = 10;\n    // Your code here\n    return 0;\n}"
+                  }
+                },
+                {
+                  "id": "cpp-oop",
+                  "title": "OOP",
+                  "explanation": "Object-Oriented Programming uses classes and objects.",
+                  "keyPoints": [
+                    "Class defines structure",
+                    "Object is instance",
+                    "Encapsulation and inheritance"
+                  ],
+                  "examples": [
+                    {
+                      "title": "Example",
+                      "code": "#include <iostream>\nusing namespace std;\n\nclass Person {\npublic:\n    string name;\n};\n\nint main() {\n    Person p;\n    p.name = \"Alex\";\n    cout << p.name;\n    return 0;\n}",
+                      "explanation": "Creates object and accesses property."
+                    }
+                  ],
+                  "practice": {
+                    "problem": "Create class Car with attribute brand.",
+                    "expected_output": "Toyota\n",
+                    "starter_code": "#include <iostream>\n#include <string>\nusing namespace std;\n\nclass Car {\npublic:\n    string brand;\n};\n\nint main() {\n    Car c;\n    c.brand = \"Toyota\";\n    cout << c.brand << endl;\n    return 0;\n}"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
