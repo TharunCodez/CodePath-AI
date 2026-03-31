@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { useParams, Navigate } from 'react-router-dom';
-import Editor from '@monaco-editor/react';
+import CodeEditor from '../components/CodeEditor';
 import { Play, Terminal as TerminalIcon, CheckCircle2, Lightbulb, MessageSquare, AlertTriangle } from 'lucide-react';
 import Sidebar from '../components/Sidebar';
 import AIResponsePanel from '../components/AIResponsePanel';
@@ -230,19 +230,10 @@ const LessonPage: React.FC<LessonPageProps> = ({ sidebarOpen }) => {
               </div>
             </div>
             <div className="monaco-container">
-              <Editor
-                height="100%"
-                language={role.id === 'cpp' ? 'cpp' : role.id}
-                theme="vs-dark"
-                value={code}
-                onChange={(value) => setCode(value || '')}
-                options={{
-                  fontSize: 14,
-                  minimap: { enabled: false },
-                  scrollBeyondLastLine: false,
-                  automaticLayout: true,
-                  padding: { top: 16 }
-                }}
+              <CodeEditor
+                language={role.id}
+                code={code}
+                setCode={setCode}
               />
             </div>
           </div>
